@@ -1,0 +1,7 @@
+[project]
+name = "autogit"
+version = "1.0.0"
+dependencies = ["typer","rich"]
+
+[project.scripts]
+autogit = "autogit.cli:app"
